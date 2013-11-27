@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
                    * Simple UIKit categories
                    * A remote property list abstraction
                    * a simplified table view source
+		DESC
 
   s.homepage     = "https://github.com/bshirley/CWLibrary"
 
@@ -20,7 +21,7 @@ Pod::Spec.new do |s|
                       "Michael Waterfall" => "mw@d3i.com" }
 
   s.ios.deployment_target = '6.0'
-  s.ios.deployment_target = '7.0'
+#  s.ios.deployment_target = '7.0'
 
 
   s.source       = { :git => "https://github.com/bshirley/CWLibrary.git", :commit => "88709d8f9e56952a476223c51967bcd2f9cd97a6" }
